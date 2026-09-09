@@ -95,3 +95,12 @@ export interface Franchisee {
   health_score: number;
   push_status: PushStatus;
 }
+
+export type NetworkHealthStatus = "healthy" | "watch" | "at_risk";
+
+export interface NetworkHealth {
+  location: string;
+  health_score: number;
+  status: NetworkHealthStatus;
+  primary_signal: string;
+}

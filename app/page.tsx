@@ -6,13 +6,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TabBar from "@/components/TabBar";
 import { TabId } from "@/lib/tabs";
+import VisibilityTab from "@/components/tabs/VisibilityTab";
 import SignalsTab from "@/components/tabs/SignalsTab";
 import RootCauseTab from "@/components/tabs/RootCauseTab";
 import ContentEngineTab from "@/components/tabs/ContentEngineTab";
 import FranchiseeGalleryTab from "@/components/tabs/FranchiseeGalleryTab";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<TabId>("signals");
+  const [activeTab, setActiveTab] = useState<TabId>("visibility");
 
   return (
     <div className="min-h-screen">
@@ -27,6 +28,7 @@ export default function Home() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
+            {activeTab === "visibility" && <VisibilityTab />}
             {activeTab === "signals" && <SignalsTab />}
             {activeTab === "root-cause" && <RootCauseTab />}
             {activeTab === "content-engine" && <ContentEngineTab />}

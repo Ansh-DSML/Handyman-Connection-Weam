@@ -1,10 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import { Check, X, Target, Radio as SignalIcon } from "lucide-react";
 import contentConcepts from "@/data/content-concepts.json";
 import positioningPillars from "@/data/positioning-pillars.json";
 import cohorts from "@/data/cohorts.json";
 import { ContentConcept, PositioningPillar, Cohort, CoverageLevel, OpportunitySize } from "@/lib/types";
+import EngineFlow from "@/components/EngineFlow";
 
 const typedConcepts = contentConcepts as ContentConcept[];
 const typedPillars = positioningPillars as PositioningPillar[];
@@ -27,22 +29,37 @@ const COVERAGE_DOT: Record<CoverageLevel, string> = {
 export default function ContentEngineTab() {
   return (
     <div className="space-y-8">
+      {/* Section 0 — How it works */}
+      <section>
+        <EngineFlow />
+      </section>
+
       {/* Section A — Generated concept */}
       <section>
         <h2 className="text-sm font-bold text-beacon-ink mb-3">Generated concept</h2>
-        <div className="rounded-2xl bg-gradient-to-br from-beacon-blue to-beacon-ink p-8 shadow-beacon">
-          <p className="font-serif text-3xl font-semibold tracking-tight text-white max-w-lg">
-            {topConcept.headline}
-          </p>
-          <div className="mt-5 flex flex-wrap gap-2">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white">
-              <SignalIcon className="h-3 w-3" />
-              Triggered by: {topConcept.triggered_by_signal}
-            </span>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white">
-              <Target className="h-3 w-3" />
-              Targets: {topConcept.target_cohort}
-            </span>
+        <div className="relative min-h-[320px] overflow-hidden rounded-2xl shadow-beacon">
+          <Image
+            src="/ads/service-van-driveway-web.jpg"
+            alt=""
+            fill
+            priority
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-beacon-ink/90 via-beacon-ink/30 to-beacon-ink/5" />
+          <div className="relative flex min-h-[320px] flex-col justify-end p-8">
+            <p className="font-serif text-3xl font-semibold tracking-tight text-white max-w-lg drop-shadow-sm">
+              {topConcept.headline}
+            </p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                <SignalIcon className="h-3 w-3" />
+                Triggered by: {topConcept.triggered_by_signal}
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                <Target className="h-3 w-3" />
+                Targets: {topConcept.target_cohort}
+              </span>
+            </div>
           </div>
         </div>
       </section>

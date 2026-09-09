@@ -66,10 +66,16 @@ export default function FranchiseeGalleryTab() {
             </div>
           </div>
 
-          <div className="aspect-square bg-gradient-to-br from-beacon-blue to-beacon-ink flex items-center justify-center p-6">
-            <p className="font-serif text-center text-xl font-semibold leading-snug text-white">
-              {topConcept.headline}
-            </p>
+          <div className="relative aspect-[9/16] bg-beacon-ink">
+            <video
+              className="absolute inset-0 h-full w-full object-cover"
+              src="/ads/handyman-connection-ad.mp4"
+              poster="/ads/handyman-connection-ad-poster.jpg"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
           </div>
 
           <div className="flex items-center gap-3 px-3 pt-3">

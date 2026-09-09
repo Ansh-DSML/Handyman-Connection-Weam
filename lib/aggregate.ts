@@ -1,4 +1,4 @@
-import { Review, ReviewTheme, Sentiment } from "./types";
+import { NetworkHealth, NetworkHealthStatus, Review, ReviewTheme, Sentiment } from "./types";
 
 export const THEME_LABELS: Record<ReviewTheme, string> = {
   no_show: "No-shows",
@@ -50,4 +50,25 @@ export function topPraise(themeCounts: ThemeCount[], total: number) {
   const top = positive[0];
   if (!top) return null;
   return { ...top, percentage: Math.round((top.count / total) * 100) };
+}
+
+export function networkAverageHealth(locations: NetworkHealth[]): number {
+  if (locations.length === 0) return 0;
+  const sum = locations.reduce((acc, l) => acc + l.health_score, 0);
+  return Math.round(sum / locations.length);
+}
+
+export function countByStatus(
+  locations: NetworkHealth[],
+  status: NetworkHealthStatus
+): number {
+  return locations.filter((l) => l.status === status).length;
+}
+
+export function topAtRisk(locations: NetworkHealth[], limit = 5): NetworkHealth[] {
+  return [...locations].sort((a, b) => a.health_score - b.health_score).slice(0, limit);
+}
+
+export function topHealthy(locations: NetworkHealth[], limit = 5): NetworkHealth[] {
+  return [...locations].sort((a, b) => b.health_score - a.health_score).slice(0, limit);
 }

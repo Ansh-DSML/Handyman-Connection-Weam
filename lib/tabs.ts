@@ -1,4 +1,9 @@
-export type TabId = "signals" | "root-cause" | "content-engine" | "franchisee-gallery";
+export type TabId =
+  | "visibility"
+  | "signals"
+  | "root-cause"
+  | "content-engine"
+  | "franchisee-gallery";
 
 export interface TabDef {
   id: TabId;
@@ -6,6 +11,7 @@ export interface TabDef {
 }
 
 export const TABS: TabDef[] = [
+  { id: "visibility", label: "Visibility" },
   { id: "signals", label: "Signals" },
   { id: "root-cause", label: "Root Cause" },
   { id: "content-engine", label: "Content Engine" },

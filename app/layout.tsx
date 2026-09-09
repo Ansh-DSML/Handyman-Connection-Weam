@@ -14,8 +14,8 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Beacon · Content Engine",
-  description: "Beacon Content Engine: signals to localized, compliant campaign content.",
+  title: "Handyman Connection Hub",
+  description: "Handyman Connection Hub: signals to localized, compliant campaign content.",
 };
 
 export default function RootLayout({

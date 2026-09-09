@@ -1,0 +1,50 @@
+[
+  {
+    "location": "Alpharetta, GA",
+    "health_score": 91,
+    "status": "healthy",
+    "primary_signal": "Revenue up 18%, NPS 72"
+  },
+  {
+    "location": "Golden, CO",
+    "health_score": 87,
+    "status": "healthy",
+    "primary_signal": "Avg job size $1,680, reviews trending up"
+  },
+  {
+    "location": "Carmel, IN",
+    "health_score": 85,
+    "status": "healthy",
+    "primary_signal": "4.6 star Google rating, 44% repeat rate"
+  },
+  {
+    "location": "Grand Rapids, MI",
+    "health_score": 83,
+    "status": "healthy",
+    "primary_signal": "98% callback rate, zero complaints"
+  },
+  {
+    "location": "Salt Lake City, UT",
+    "health_score": 82,
+    "status": "healthy",
+    "primary_signal": "Revenue up 12%, 62% margin"
+  },
+  {
+    "location": "Fort Worth, TX",
+    "health_score": 42,
+    "status": "watch",
+    "primary_signal": "Scheduling conflicts 3x network average"
+  },
+  {
+    "location": "Kansas City, MO",
+    "health_score": 31,
+    "status": "at_risk",
+    "primary_signal": "41% missed callbacks, NPS 18"
+  },
+  {
+    "location": "Jacksonville, FL",
+    "health_score": 27,
+    "status": "at_risk",
+    "primary_signal": "Revenue down 34%, 12 neg. reviews/mo"
+  }
+]

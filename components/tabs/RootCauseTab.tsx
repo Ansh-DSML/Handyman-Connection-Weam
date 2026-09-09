@@ -34,8 +34,8 @@ export default function RootCauseTab() {
   return (
     <div>
       <p className="text-xs italic text-beacon-muted mb-5">
-        This is the same signal layer from Beacon · Signal Intelligence, condensed here to show
-        where content strategy should start.
+        This is the same signal layer from the Handyman Connection Hub&apos;s Health Monitor,
+        condensed here to show where content strategy should start.
       </p>
 
       <h2 className="text-sm font-bold text-beacon-ink mb-3">
