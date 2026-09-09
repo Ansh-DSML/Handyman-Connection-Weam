@@ -1,0 +1,47 @@
+[
+  {
+    "id": "concept_01",
+    "headline": "We show up. On time. Every time.",
+    "triggered_by_signal": "no_show theme, 40% of negative reviews",
+    "addresses_pillar": "Reliability / Shows up on time",
+    "target_cohort": "Time-poor dual-income homeowners, 35-54",
+    "compliance": {
+      "score": 92,
+      "checks": [
+        { "rule": "No personal attribute targeting language", "pass": true },
+        { "rule": "No unsubstantiated superlative claims", "pass": true },
+        { "rule": "Before/after imagery disclosure needed", "pass": false, "note": "Add disclaimer if using real job photos" }
+      ]
+    }
+  },
+  {
+    "id": "concept_02",
+    "headline": "One quote. One price. No surprises.",
+    "triggered_by_signal": "pricing_dispute theme, 33% of negative reviews",
+    "addresses_pillar": "Price/Value transparency",
+    "target_cohort": "Landlords & property managers",
+    "compliance": {
+      "score": 88,
+      "checks": [
+        { "rule": "No personal attribute targeting language", "pass": true },
+        { "rule": "No unsubstantiated superlative claims", "pass": true },
+        { "rule": "Financial claim substantiation on landing page", "pass": false, "note": "Add itemized pricing example on landing page before launch" }
+      ]
+    }
+  },
+  {
+    "id": "concept_03",
+    "headline": "Not right? We'll make it right. Guaranteed.",
+    "triggered_by_signal": "incomplete_work theme, 13% of negative reviews",
+    "addresses_pillar": "Guarantee/risk reversal",
+    "target_cohort": "New homeowners, first 24 months in home",
+    "compliance": {
+      "score": 95,
+      "checks": [
+        { "rule": "No personal attribute targeting language", "pass": true },
+        { "rule": "No unsubstantiated superlative claims", "pass": true },
+        { "rule": "Guarantee terms linked from ad creative", "pass": true }
+      ]
+    }
+  }
+]

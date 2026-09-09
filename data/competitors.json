@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mr. Handyman",
+    "primary_pillars": ["Reliability / Shows up on time", "Craftsmanship quality"],
+    "notes": "Leads with 'punctual and professional' messaging in the first line of homepage copy"
+  },
+  {
+    "name": "Ace Handyman Services",
+    "primary_pillars": ["Guarantee/risk reversal", "Craftsmanship quality"],
+    "notes": "Homepage headline centers a written satisfaction guarantee before any pricing mention"
+  },
+  {
+    "name": "TaskRabbit",
+    "primary_pillars": ["Convenience/speed", "Price/Value transparency"],
+    "notes": "App-first booking flow and same-day availability are the entire above-the-fold pitch"
+  },
+  {
+    "name": "Generic local independent",
+    "primary_pillars": ["Local trust & community"],
+    "notes": "Relies on word-of-mouth and a Nextdoor presence rather than a formal positioning statement"
+  }
+]

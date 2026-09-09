@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Handyman Connection of Alpharetta",
+    "location": "Alpharetta, GA",
+    "star_rating": 4.6,
+    "phone": "(770) 555-0142",
+    "health_score": 88,
+    "push_status": "not_pushed"
+  },
+  {
+    "name": "Handyman Connection of Golden",
+    "location": "Golden, CO",
+    "star_rating": 4.4,
+    "phone": "(303) 555-0119",
+    "health_score": 81,
+    "push_status": "not_pushed"
+  },
+  {
+    "name": "Handyman Connection of Carmel",
+    "location": "Carmel, IN",
+    "star_rating": 4.7,
+    "phone": "(317) 555-0176",
+    "health_score": 90,
+    "push_status": "not_pushed"
+  },
+  {
+    "name": "Handyman Connection of Salt Lake City",
+    "location": "Salt Lake City, UT",
+    "star_rating": 4.3,
+    "phone": "(801) 555-0163",
+    "health_score": 76,
+    "push_status": "not_pushed"
+  },
+  {
+    "name": "Handyman Connection of Kansas City",
+    "location": "Kansas City, MO",
+    "star_rating": 4.5,
+    "phone": "(816) 555-0128",
+    "health_score": 83,
+    "push_status": "not_pushed"
+  }
+]

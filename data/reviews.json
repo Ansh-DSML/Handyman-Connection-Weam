@@ -1,0 +1,242 @@
+[
+  {
+    "id": "rev_001",
+    "location": "Alpharetta, GA",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "craftsmanship_praise",
+    "sentiment": "positive",
+    "date": "2026-02-11",
+    "snippet_summary": "Customer praises the precision of a custom shelving install, calls it 'furniture-grade' work"
+  },
+  {
+    "id": "rev_002",
+    "location": "Alpharetta, GA",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "reliability_praise",
+    "sentiment": "positive",
+    "date": "2026-04-03",
+    "snippet_summary": "Craftsman arrived exactly on time for a two-week-out appointment and confirmed the day before"
+  },
+  {
+    "id": "rev_003",
+    "location": "Alpharetta, GA",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-06-22",
+    "snippet_summary": "Booked a morning window, no one arrived or called until customer followed up that afternoon"
+  },
+  {
+    "id": "rev_004",
+    "location": "Golden, CO",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "craftsmanship_praise",
+    "sentiment": "positive",
+    "date": "2026-01-19",
+    "snippet_summary": "Deck repair described as sturdier than the original builder's work"
+  },
+  {
+    "id": "rev_005",
+    "location": "Golden, CO",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "pricing_dispute",
+    "sentiment": "negative",
+    "date": "2026-03-08",
+    "snippet_summary": "Final invoice came in well above the phone estimate with no heads-up call"
+  },
+  {
+    "id": "rev_006",
+    "location": "Golden, CO",
+    "source": "WebPunch",
+    "rating": 3,
+    "theme": "communication_gap",
+    "sentiment": "negative",
+    "date": "2026-07-02",
+    "snippet_summary": "Customer had to call three times to get a status update on a delayed drywall job"
+  },
+  {
+    "id": "rev_007",
+    "location": "Carmel, IN",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "reliability_praise",
+    "sentiment": "positive",
+    "date": "2026-02-27",
+    "snippet_summary": "Praises the office for a proactive reschedule call ahead of a snowstorm"
+  },
+  {
+    "id": "rev_008",
+    "location": "Carmel, IN",
+    "source": "WebPunch",
+    "rating": 4,
+    "theme": "craftsmanship_praise",
+    "sentiment": "positive",
+    "date": "2026-05-14",
+    "snippet_summary": "Tile backsplash install called 'better than the photos on the website'"
+  },
+  {
+    "id": "rev_009",
+    "location": "Carmel, IN",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "incomplete_work",
+    "sentiment": "negative",
+    "date": "2026-08-01",
+    "snippet_summary": "Painting job left one closet untouched and craftsman did not return calls to finish"
+  },
+  {
+    "id": "rev_010",
+    "location": "Grand Rapids, MI",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "pricing_dispute",
+    "sentiment": "negative",
+    "date": "2026-03-19",
+    "snippet_summary": "Add-on fee for materials was not disclosed until the job was already underway"
+  },
+  {
+    "id": "rev_011",
+    "location": "Grand Rapids, MI",
+    "source": "WebPunch",
+    "rating": 1,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-06-05",
+    "snippet_summary": "Second missed appointment in a row for the same fence repair job"
+  },
+  {
+    "id": "rev_012",
+    "location": "Grand Rapids, MI",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "reliability_praise",
+    "sentiment": "positive",
+    "date": "2026-04-28",
+    "snippet_summary": "Same craftsman handled three separate jobs, always within the promised window"
+  },
+  {
+    "id": "rev_013",
+    "location": "Salt Lake City, UT",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "craftsmanship_praise",
+    "sentiment": "positive",
+    "date": "2026-01-30",
+    "snippet_summary": "Custom garage shelving system praised for clean, level installation"
+  },
+  {
+    "id": "rev_014",
+    "location": "Salt Lake City, UT",
+    "source": "WebPunch",
+    "rating": 1,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-05-09",
+    "snippet_summary": "Waited a full day past the scheduled window with no call from the office"
+  },
+  {
+    "id": "rev_015",
+    "location": "Salt Lake City, UT",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "pricing_dispute",
+    "sentiment": "negative",
+    "date": "2026-07-16",
+    "snippet_summary": "Customer felt quoted price and invoiced price did not match the scope discussed"
+  },
+  {
+    "id": "rev_016",
+    "location": "Jacksonville, FL",
+    "source": "WebPunch",
+    "rating": 1,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-03-14",
+    "snippet_summary": "Customer describes waiting a full day past the scheduled window"
+  },
+  {
+    "id": "rev_017",
+    "location": "Jacksonville, FL",
+    "source": "WebPunch",
+    "rating": 1,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-07-09",
+    "snippet_summary": "Craftsman rescheduled twice, then never showed for the third appointment"
+  },
+  {
+    "id": "rev_018",
+    "location": "Jacksonville, FL",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "pricing_dispute",
+    "sentiment": "negative",
+    "date": "2026-07-25",
+    "snippet_summary": "Customer says the crew rushed the job to make the next appointment and price went up regardless"
+  },
+  {
+    "id": "rev_019",
+    "location": "Kansas City, MO",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "reliability_praise",
+    "sentiment": "positive",
+    "date": "2026-02-06",
+    "snippet_summary": "Praised for showing up ahead of schedule and calling first"
+  },
+  {
+    "id": "rev_020",
+    "location": "Kansas City, MO",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "pricing_dispute",
+    "sentiment": "negative",
+    "date": "2026-04-17",
+    "snippet_summary": "Fence stain job billed at nearly double the phone quote"
+  },
+  {
+    "id": "rev_021",
+    "location": "Kansas City, MO",
+    "source": "WebPunch",
+    "rating": 3,
+    "theme": "communication_gap",
+    "sentiment": "negative",
+    "date": "2026-08-12",
+    "snippet_summary": "No one informed the customer that a part was on backorder for two weeks"
+  },
+  {
+    "id": "rev_022",
+    "location": "Fort Worth, TX",
+    "source": "WebPunch",
+    "rating": 5,
+    "theme": "craftsmanship_praise",
+    "sentiment": "positive",
+    "date": "2026-01-23",
+    "snippet_summary": "Bathroom regrout called the cleanest work the customer has seen from any contractor"
+  },
+  {
+    "id": "rev_023",
+    "location": "Fort Worth, TX",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "no_show",
+    "sentiment": "negative",
+    "date": "2026-05-30",
+    "snippet_summary": "Appointment window passed with no craftsman and no call from dispatch"
+  },
+  {
+    "id": "rev_024",
+    "location": "Fort Worth, TX",
+    "source": "WebPunch",
+    "rating": 2,
+    "theme": "incomplete_work",
+    "sentiment": "negative",
+    "date": "2026-08-20",
+    "snippet_summary": "Gutter job finished on three sides of the house, fourth side left for a follow-up that never got scheduled"
+  }
+]

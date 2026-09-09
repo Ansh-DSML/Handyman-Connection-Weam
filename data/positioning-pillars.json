@@ -1,0 +1,44 @@
+[
+  {
+    "pillar": "Reliability / Shows up on time",
+    "covered": false,
+    "evidence": "No current campaign or homepage copy addresses this directly, despite no-shows being the single most common negative review theme",
+    "competitor_using_it": ["Mr. Handyman"],
+    "opportunity_size": "high"
+  },
+  {
+    "pillar": "Price/Value transparency",
+    "covered": false,
+    "evidence": "Pricing is only shared after a quote call; no ad or page states itemized, transparent pricing up front",
+    "competitor_using_it": ["TaskRabbit"],
+    "opportunity_size": "high"
+  },
+  {
+    "pillar": "Craftsmanship quality",
+    "covered": true,
+    "evidence": "Homepage and past campaigns already lead with skilled-craftsman messaging, and it is the top praise theme in reviews",
+    "competitor_using_it": ["Mr. Handyman", "Ace Handyman Services"],
+    "opportunity_size": "low"
+  },
+  {
+    "pillar": "Convenience/speed",
+    "covered": false,
+    "evidence": "No messaging addresses booking speed or scheduling ease; this pillar is not mentioned anywhere in current positioning",
+    "competitor_using_it": ["TaskRabbit"],
+    "opportunity_size": "medium"
+  },
+  {
+    "pillar": "Local trust & community",
+    "covered": true,
+    "evidence": "Franchisee pages reference local ownership and community sponsorships in their bios",
+    "competitor_using_it": [],
+    "opportunity_size": "low"
+  },
+  {
+    "pillar": "Guarantee/risk reversal",
+    "covered": false,
+    "evidence": "No written satisfaction guarantee appears in current ad copy or on the homepage",
+    "competitor_using_it": ["Ace Handyman Services"],
+    "opportunity_size": "medium"
+  }
+]

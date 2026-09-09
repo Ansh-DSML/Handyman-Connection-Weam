@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Time-poor dual-income homeowners, 35-54",
+    "size_estimate": "38% of historical leads",
+    "resonant_pillar": "Convenience / speed",
+    "current_coverage": "low",
+    "note": "No existing ad creative speaks to time-savings directly"
+  },
+  {
+    "name": "Retirees & aging-in-place homeowners, 60+",
+    "size_estimate": "22% of historical leads",
+    "resonant_pillar": "Reliability / Shows up on time",
+    "current_coverage": "low",
+    "note": "Highly sensitive to no-show experiences, but current messaging doesn't reassure this group directly"
+  },
+  {
+    "name": "New homeowners, first 24 months in home",
+    "size_estimate": "19% of historical leads",
+    "resonant_pillar": "Guarantee/risk reversal",
+    "current_coverage": "medium",
+    "note": "Onboarding emails touch on guarantees, but no dedicated ad creative exists yet"
+  },
+  {
+    "name": "Landlords & property managers",
+    "size_estimate": "21% of historical leads",
+    "resonant_pillar": "Price/Value transparency",
+    "current_coverage": "low",
+    "note": "Repeat multi-unit customers care most about predictable, itemized pricing across jobs"
+  }
+]

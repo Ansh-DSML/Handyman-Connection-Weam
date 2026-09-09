@@ -1,0 +1,196 @@
+[
+  {
+    "location": "Jacksonville, FL",
+    "flagged": true,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "J. Alvarez", "jobs_per_day": 6.4 },
+      { "craftsman": "T. Reyes", "jobs_per_day": 5.8 },
+      { "craftsman": "M. Chen", "jobs_per_day": 4.5 },
+      { "craftsman": "D. Patel", "jobs_per_day": 6.1 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 75, "scheduling_conflict_rate": 6 },
+      { "month": "2025-10", "review_sentiment_score": 73, "scheduling_conflict_rate": 8 },
+      { "month": "2025-11", "review_sentiment_score": 76, "scheduling_conflict_rate": 6 },
+      { "month": "2025-12", "review_sentiment_score": 74, "scheduling_conflict_rate": 7 },
+      { "month": "2026-01", "review_sentiment_score": 72, "scheduling_conflict_rate": 8 },
+      { "month": "2026-02", "review_sentiment_score": 70, "scheduling_conflict_rate": 9 },
+      { "month": "2026-03", "review_sentiment_score": 46, "scheduling_conflict_rate": 25 },
+      { "month": "2026-04", "review_sentiment_score": 68, "scheduling_conflict_rate": 10 },
+      { "month": "2026-05", "review_sentiment_score": 71, "scheduling_conflict_rate": 9 },
+      { "month": "2026-06", "review_sentiment_score": 69, "scheduling_conflict_rate": 10 },
+      { "month": "2026-07", "review_sentiment_score": 43, "scheduling_conflict_rate": 27 },
+      { "month": "2026-08", "review_sentiment_score": 65, "scheduling_conflict_rate": 12 }
+    ],
+    "correlation_note": "Negative review spikes in March and July correlate with scheduling conflict spikes in the same months."
+  },
+  {
+    "location": "Alpharetta, GA",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "R. Kim", "jobs_per_day": 4.0 },
+      { "craftsman": "S. Brooks", "jobs_per_day": 4.3 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 84, "scheduling_conflict_rate": 4 },
+      { "month": "2025-10", "review_sentiment_score": 85, "scheduling_conflict_rate": 4 },
+      { "month": "2025-11", "review_sentiment_score": 83, "scheduling_conflict_rate": 5 },
+      { "month": "2025-12", "review_sentiment_score": 82, "scheduling_conflict_rate": 5 },
+      { "month": "2026-01", "review_sentiment_score": 86, "scheduling_conflict_rate": 3 },
+      { "month": "2026-02", "review_sentiment_score": 85, "scheduling_conflict_rate": 4 },
+      { "month": "2026-03", "review_sentiment_score": 81, "scheduling_conflict_rate": 6 },
+      { "month": "2026-04", "review_sentiment_score": 84, "scheduling_conflict_rate": 5 },
+      { "month": "2026-05", "review_sentiment_score": 87, "scheduling_conflict_rate": 3 },
+      { "month": "2026-06", "review_sentiment_score": 83, "scheduling_conflict_rate": 5 },
+      { "month": "2026-07", "review_sentiment_score": 80, "scheduling_conflict_rate": 6 },
+      { "month": "2026-08", "review_sentiment_score": 82, "scheduling_conflict_rate": 5 }
+    ],
+    "correlation_note": "Sentiment and scheduling conflicts both track near network average, with no notable spikes."
+  },
+  {
+    "location": "Golden, CO",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "L. Fischer", "jobs_per_day": 4.4 },
+      { "craftsman": "P. Nguyen", "jobs_per_day": 3.9 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 },
+      { "month": "2025-10", "review_sentiment_score": 77, "scheduling_conflict_rate": 7 },
+      { "month": "2025-11", "review_sentiment_score": 80, "scheduling_conflict_rate": 6 },
+      { "month": "2025-12", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2026-01", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 },
+      { "month": "2026-02", "review_sentiment_score": 75, "scheduling_conflict_rate": 8 },
+      { "month": "2026-03", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 },
+      { "month": "2026-04", "review_sentiment_score": 77, "scheduling_conflict_rate": 7 },
+      { "month": "2026-05", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 },
+      { "month": "2026-06", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2026-07", "review_sentiment_score": 75, "scheduling_conflict_rate": 7 },
+      { "month": "2026-08", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 }
+    ],
+    "correlation_note": "Mild, gradual dip in sentiment tracks a mild rise in scheduling conflicts, well within normal range."
+  },
+  {
+    "location": "Carmel, IN",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "A. Whitfield", "jobs_per_day": 4.1 },
+      { "craftsman": "G. Solis", "jobs_per_day": 4.3 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 87, "scheduling_conflict_rate": 3 },
+      { "month": "2025-10", "review_sentiment_score": 88, "scheduling_conflict_rate": 3 },
+      { "month": "2025-11", "review_sentiment_score": 86, "scheduling_conflict_rate": 4 },
+      { "month": "2025-12", "review_sentiment_score": 85, "scheduling_conflict_rate": 4 },
+      { "month": "2026-01", "review_sentiment_score": 88, "scheduling_conflict_rate": 3 },
+      { "month": "2026-02", "review_sentiment_score": 89, "scheduling_conflict_rate": 3 },
+      { "month": "2026-03", "review_sentiment_score": 86, "scheduling_conflict_rate": 4 },
+      { "month": "2026-04", "review_sentiment_score": 84, "scheduling_conflict_rate": 5 },
+      { "month": "2026-05", "review_sentiment_score": 85, "scheduling_conflict_rate": 4 },
+      { "month": "2026-06", "review_sentiment_score": 83, "scheduling_conflict_rate": 5 },
+      { "month": "2026-07", "review_sentiment_score": 82, "scheduling_conflict_rate": 5 },
+      { "month": "2026-08", "review_sentiment_score": 84, "scheduling_conflict_rate": 4 }
+    ],
+    "correlation_note": "Best-performing location in the network on both sentiment and scheduling reliability."
+  },
+  {
+    "location": "Grand Rapids, MI",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "K. Osei", "jobs_per_day": 4.6 },
+      { "craftsman": "B. Larsen", "jobs_per_day": 5.0 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 },
+      { "month": "2025-10", "review_sentiment_score": 73, "scheduling_conflict_rate": 9 },
+      { "month": "2025-11", "review_sentiment_score": 75, "scheduling_conflict_rate": 8 },
+      { "month": "2025-12", "review_sentiment_score": 72, "scheduling_conflict_rate": 9 },
+      { "month": "2026-01", "review_sentiment_score": 71, "scheduling_conflict_rate": 10 },
+      { "month": "2026-02", "review_sentiment_score": 70, "scheduling_conflict_rate": 10 },
+      { "month": "2026-03", "review_sentiment_score": 72, "scheduling_conflict_rate": 9 },
+      { "month": "2026-04", "review_sentiment_score": 69, "scheduling_conflict_rate": 11 },
+      { "month": "2026-05", "review_sentiment_score": 71, "scheduling_conflict_rate": 10 },
+      { "month": "2026-06", "review_sentiment_score": 73, "scheduling_conflict_rate": 9 },
+      { "month": "2026-07", "review_sentiment_score": 70, "scheduling_conflict_rate": 10 },
+      { "month": "2026-08", "review_sentiment_score": 72, "scheduling_conflict_rate": 9 }
+    ],
+    "correlation_note": "Consistently elevated scheduling conflict rate versus network average, worth watching but not yet a flagged location."
+  },
+  {
+    "location": "Salt Lake City, UT",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "H. Draper", "jobs_per_day": 4.7 },
+      { "craftsman": "N. Ibarra", "jobs_per_day": 4.4 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 77, "scheduling_conflict_rate": 7 },
+      { "month": "2025-10", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 },
+      { "month": "2025-11", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2025-12", "review_sentiment_score": 75, "scheduling_conflict_rate": 8 },
+      { "month": "2026-01", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 },
+      { "month": "2026-02", "review_sentiment_score": 73, "scheduling_conflict_rate": 9 },
+      { "month": "2026-03", "review_sentiment_score": 72, "scheduling_conflict_rate": 9 },
+      { "month": "2026-04", "review_sentiment_score": 75, "scheduling_conflict_rate": 7 },
+      { "month": "2026-05", "review_sentiment_score": 71, "scheduling_conflict_rate": 10 },
+      { "month": "2026-06", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 },
+      { "month": "2026-07", "review_sentiment_score": 70, "scheduling_conflict_rate": 10 },
+      { "month": "2026-08", "review_sentiment_score": 73, "scheduling_conflict_rate": 8 }
+    ],
+    "correlation_note": "Second-highest scheduling conflict rate in the network; below the flag threshold but trending the wrong way."
+  },
+  {
+    "location": "Kansas City, MO",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "E. Mercer", "jobs_per_day": 4.0 },
+      { "craftsman": "V. Castillo", "jobs_per_day": 4.2 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 81, "scheduling_conflict_rate": 5 },
+      { "month": "2025-10", "review_sentiment_score": 80, "scheduling_conflict_rate": 5 },
+      { "month": "2025-11", "review_sentiment_score": 82, "scheduling_conflict_rate": 5 },
+      { "month": "2025-12", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 },
+      { "month": "2026-01", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2026-02", "review_sentiment_score": 80, "scheduling_conflict_rate": 5 },
+      { "month": "2026-03", "review_sentiment_score": 77, "scheduling_conflict_rate": 6 },
+      { "month": "2026-04", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 },
+      { "month": "2026-05", "review_sentiment_score": 81, "scheduling_conflict_rate": 5 },
+      { "month": "2026-06", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2026-07", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 },
+      { "month": "2026-08", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 }
+    ],
+    "correlation_note": "Stable, close to network average across the full 12 months."
+  },
+  {
+    "location": "Fort Worth, TX",
+    "flagged": false,
+    "network_average_jobs_per_day": 4.2,
+    "craftsman_workload": [
+      { "craftsman": "C. Boone", "jobs_per_day": 4.5 },
+      { "craftsman": "W. Ortiz", "jobs_per_day": 4.8 }
+    ],
+    "monthly": [
+      { "month": "2025-09", "review_sentiment_score": 78, "scheduling_conflict_rate": 6 },
+      { "month": "2025-10", "review_sentiment_score": 77, "scheduling_conflict_rate": 7 },
+      { "month": "2025-11", "review_sentiment_score": 79, "scheduling_conflict_rate": 6 },
+      { "month": "2025-12", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 },
+      { "month": "2026-01", "review_sentiment_score": 75, "scheduling_conflict_rate": 8 },
+      { "month": "2026-02", "review_sentiment_score": 77, "scheduling_conflict_rate": 7 },
+      { "month": "2026-03", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 },
+      { "month": "2026-04", "review_sentiment_score": 76, "scheduling_conflict_rate": 7 },
+      { "month": "2026-05", "review_sentiment_score": 73, "scheduling_conflict_rate": 9 },
+      { "month": "2026-06", "review_sentiment_score": 75, "scheduling_conflict_rate": 8 },
+      { "month": "2026-07", "review_sentiment_score": 72, "scheduling_conflict_rate": 9 },
+      { "month": "2026-08", "review_sentiment_score": 74, "scheduling_conflict_rate": 8 }
+    ],
+    "correlation_note": "Gradual softening in both metrics over the year; not yet at flag threshold."
+  }
+]
